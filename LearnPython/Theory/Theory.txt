@@ -1,0 +1,11 @@
+<1> How Program is Complied and Execute in Python.
+-Python internally does not Convert Source code into .pyc files.
+-PVM will directly execute source code.
+-If really want to convert,Use command to convert into byte Code :  python -m py_compile DataTypes.py
+-Source Code file (Test.py)====(Compiler)====>ByteCode==(Python Virtual Machine will execute program)
+
+<2> How Variable is stored in Python Memory
+- Suppose we have created 3 variables :-
+  a-1; a=12.1;a="String";
+  It will create 3 different objects in memory.
+  Now i is pointing to "String" block.
